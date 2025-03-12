@@ -1,1 +1,1 @@
-# YouTube-speed-extention
+# See master branch
