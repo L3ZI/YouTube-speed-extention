@@ -6,7 +6,11 @@
   "permissions": ["scripting", "activeTab"],
   "host_permissions": ["https://www.youtube.com/*"],
   "action": {
-    
+    "default_icon": {
+      "16": "icons/happyicons.png",
+      "48": "icons/happyicons.png",
+      "128": "icons/happyicons.png"
+    }
   },
   "background": {
     "service_worker": "background.js"
