@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Speed Controller",
+  "version": "1.0",
+  "description": "Change YouTube playback speed between 0.5x and 3x",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "action": {
+    
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
